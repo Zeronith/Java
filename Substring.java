@@ -16,6 +16,7 @@ public class Substring {
 		if(!email.contains("@") || email.contains(" "))
 		{
 			System.out.println("That's not even email bro");
+			scanner.close();
 			return ; 
 		}
 		
